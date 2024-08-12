@@ -1,0 +1,64 @@
+/* App.css */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #6200ea;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3700b3;
+}
+
+/* Dark Mode */
+.dark-mode input {
+    background-color: #333;
+    color: white;
+    border-color: #444;
+}
+
+.dark-mode button {
+    background-color: #bb86fc;
+}
+
+.dark-mode button:hover {
+    background-color: #6200ea;
+}
+
+/* Other styles like Header, Footer, etc. */
